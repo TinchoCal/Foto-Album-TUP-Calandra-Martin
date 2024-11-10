@@ -1,4 +1,4 @@
-from app import db
+from photo_album.app import db
 
 class Photo(db.Model):
     id = db.Column(db.Integer, primary_key=True)

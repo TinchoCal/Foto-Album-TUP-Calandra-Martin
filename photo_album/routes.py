@@ -1,7 +1,7 @@
 from flask import render_template, request, redirect, url_for, flash
-from app import app, db
-from models import Photo
-from forms import PhotoForm
+from photo_album.app import app, db
+from photo_album.models import Photo
+from photo_album.forms import PhotoForm
 import base64
 
 @app.route('/add', methods=['GET', 'POST'])
